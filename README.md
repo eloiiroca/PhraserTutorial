@@ -96,7 +96,7 @@ Ahora que ya tenemos definidos el modelo y el controlador, falta definir las rut
             action: "getAllPhrases"
         },
 
-        "POST /phrase": {
+        "GET /phrase": {
             controller: "PhraseController",
             action: "newPhrase"
         }
