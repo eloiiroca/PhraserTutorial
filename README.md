@@ -1,5 +1,15 @@
 # Instrucciones
+Primero hay que instalar los paquetes de los dos proyectos:
 
+    cd backend 
+    sudo npm install
+    cd ..
+    cd frontend
+    sudo npm install
+
+(Si os sale algún error, borrad el package.json de cada uno de los dos proyectos y volved a ejecutar los comandos)
+
+---
 Para ejecutar el servidor (está puesto por defecto en el puerto 1337 y debe estar así para no tocar el cliente):
 
     cd backend
