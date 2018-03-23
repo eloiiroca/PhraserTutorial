@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import {Grid, Row, FormControl, Button} from 'react-bootstrap';
 import axios from 'axios'
 
+
 class Phrase extends Component {
     constructor(props){
         super(props);
         this.state = {
             phrases: ["asdaaaa5", "sdadsadda"],
-            text: ""
+            text: "Posa la teva frase"
         }
 
         this.httpUrl = "http://127.0.0.1:1337/";
